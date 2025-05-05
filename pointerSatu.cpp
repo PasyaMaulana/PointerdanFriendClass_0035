@@ -10,3 +10,9 @@ public:
         cout << "No Induk = " << nim << endl;
     }
 };
+
+int main()
+{
+    mahasiswa mhs{1}; // Object mhs
+    mhs.showNim();    // Member Access Operator
+}
